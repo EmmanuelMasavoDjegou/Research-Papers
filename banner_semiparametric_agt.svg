@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9a7"/>
+      <stop offset="100%" stop-color="#4fd3c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#g1)"/>
+
+  <g transform="translate(1030,130)" opacity="0.18">
+    <circle r="90" fill="none" stroke="#ffffff" stroke-width="10"/>
+    <g fill="#ffffff">
+      <rect x="-8" y="-110" width="16" height="34"/>
+      <rect x="-8" y="76" width="16" height="34"/>
+      <rect x="-110" y="-8" width="34" height="16"/>
+      <rect x="76" y="-8" width="34" height="16"/>
+      <rect x="-8" y="-110" width="16" height="34" transform="rotate(45)"/>
+      <rect x="-8" y="76" width="16" height="34" transform="rotate(45)"/>
+      <rect x="-110" y="-8" width="34" height="16" transform="rotate(45)"/>
+      <rect x="76" y="-8" width="34" height="16" transform="rotate(45)"/>
+    </g>
+    <circle r="34" fill="#0f2027"/>
+  </g>
+
+  <g transform="translate(70,190)">
+    <line x1="0" y1="0" x2="560" y2="0" stroke="url(#accent1)" stroke-width="4"/>
+    <circle cx="0" cy="0" r="8" fill="#4fd3c4"/>
+    <circle cx="140" cy="0" r="8" fill="#4fd3c4"/>
+    <circle cx="260" cy="0" r="10" fill="#00c9a7"/>
+    <circle cx="410" cy="0" r="8" fill="#4fd3c4"/>
+    <circle cx="560" cy="0" r="10" fill="#00c9a7"/>
+  </g>
+
+  <text x="70" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#ffffff" font-weight="bold">Efficient Estimation in Semiparametric</text>
+  <text x="70" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#ffffff" font-weight="bold">Accelerated Gap-Time Models</text>
+  <text x="70" y="146" font-family="Arial, sans-serif" font-size="19" fill="#a9c9d4">for Recurrent Event Data</text>
+  <rect x="70" y="164" width="120" height="6" fill="url(#accent1)"/>
+</svg>

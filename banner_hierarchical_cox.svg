@@ -1,0 +1,44 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="50%" stop-color="#1c2541"/>
+      <stop offset="100%" stop-color="#3a506b"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9d4edd"/>
+      <stop offset="100%" stop-color="#c77dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#g3)"/>
+
+  <!-- hierarchy tree -->
+  <g transform="translate(880,40)" opacity="0.9" stroke="#c77dff" stroke-width="3">
+    <circle cx="120" cy="10" r="10" fill="#c77dff" stroke="none"/>
+    <line x1="120" y1="20" x2="40" y2="70"/>
+    <line x1="120" y1="20" x2="120" y2="70"/>
+    <line x1="120" y1="20" x2="200" y2="70"/>
+    <circle cx="40" cy="80" r="8" fill="#4fd3c4" stroke="none"/>
+    <circle cx="120" cy="80" r="8" fill="#4fd3c4" stroke="none"/>
+    <circle cx="200" cy="80" r="8" fill="#4fd3c4" stroke="none"/>
+    <line x1="40" y1="88" x2="10" y2="140"/>
+    <line x1="40" y1="88" x2="70" y2="140"/>
+    <line x1="120" y1="88" x2="90" y2="140"/>
+    <line x1="120" y1="88" x2="150" y2="140"/>
+    <line x1="200" y1="88" x2="170" y2="140"/>
+    <line x1="200" y1="88" x2="230" y2="140"/>
+    <g fill="#ffffff" stroke="none">
+      <circle cx="10" cy="148" r="6"/>
+      <circle cx="70" cy="148" r="6"/>
+      <circle cx="90" cy="148" r="6"/>
+      <circle cx="150" cy="148" r="6"/>
+      <circle cx="170" cy="148" r="6"/>
+      <circle cx="230" cy="148" r="6"/>
+    </g>
+  </g>
+
+  <text x="70" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ffffff" font-weight="bold">Hierarchical Variable Selection</text>
+  <text x="70" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#ffffff" font-weight="bold">for Nonconvex Penalized Cox Models</text>
+  <text x="70" y="152" font-family="Arial, sans-serif" font-size="19" fill="#c9b8e8">Individual-Participant-Data Meta-Analysis</text>
+  <rect x="70" y="172" width="120" height="6" fill="url(#accent3)"/>
+</svg>
