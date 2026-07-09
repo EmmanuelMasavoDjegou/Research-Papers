@@ -35,7 +35,7 @@
 
 ### Abstract
 
-> The **accelerated failure time (AFT)** model relates covariates to log-transformed event times under right-censoring, and extends naturally to recurrent events through the **accelerated gap-time (AGT)** formulation — a meaningful alternative to the Cox model. In applications like reliability engineering and biomedical research, interventions between successive events can alter subsequent timing, motivating models that explicitly accommodate such effects.
+> The **accelerated failure time (AFT)** model relates covariates to log-transformed event times under right-censoring, and extends naturally to recurrent events through the **accelerated gap-time (AGT)** formulation, a meaningful alternative to the Cox model. In applications like reliability engineering and biomedical research, interventions between successive events can alter subsequent timing, motivating models that explicitly accommodate such effects.
 >
 > This paper considers a broad class of **semiparametric accelerated gap-time models** incorporating an **effective age process**, representing a wide range of intervention mechanisms within a unified framework. To handle the estimation challenges posed by an infinite-dimensional baseline hazard and non-monotone score functions, a **sample-based weighted efficient score** is constructed via parametric submodels. The resulting estimators are shown to be **consistent and asymptotically normal**, and are illustrated through simulation studies and an application to a biomedical dataset.
 
@@ -60,11 +60,11 @@
 
 ### Abstract
 
-> Recurrent event data arise when the same type of outcome occurs repeatedly for a subject over time — repeated hospitalizations, successive equipment failures, recurring insurance claims. Standard models often rely on restrictive assumptions about how covariates influence event risk, and can falter when those assumptions break down or relationships are complex.
+> Recurrent event data arise when the same type of outcome occurs repeatedly for a subject over time, including repeated hospitalizations, successive equipment failures, and recurring insurance claims. Traditional statistical models for such data often depend on restrictive assumptions regarding covariate effects, event dependence, and underlying risk structures. These assumptions can limit their ability to accurately characterize complex real-world processes, particularly when relationships between covariates and recurrent event dynamics are nonlinear, heterogeneous, or difficult to specify parametrically.
 >
-> This paper introduces **RNN-AGT**, a deep learning framework that predicts the time between successive recurrent events in a flexible, data-driven way. An **RNN architecture** learns how a subject's event history shapes future event timing — without parametric assumptions on the error distribution or linearity requirements on covariate effects. To handle subjects whose follow-up ends before all events are observed, training uses a **rank-based (Gehan-type) objective** that properly accounts for incomplete observations while staying computationally efficient.
+> This paper introduces **RNN-AGT**, a deep learning framework that predicts the time between successive recurrent events in a flexible, data-driven way. An **RNN architecture** learns how a subject's event history shapes future event timing, without parametric assumptions on the error distribution or linearity requirements on covariate effects. To handle subjects whose follow-up ends before all events are observed, training uses a **rank-based (Gehan-type) objective** that properly accounts for incomplete observations while staying computationally efficient.
 >
-> Extensive simulations — covering nonlinear covariate effects, complex within-subject dependence, varying incomplete follow-up, and high-dimensional predictors — plus applications to **two clinical datasets** (repeated infections and hospital readmissions) show strong predictive accuracy and discrimination, outperforming classical competitors on the larger dataset.
+> Extensive simulations covering nonlinear covariate effects, complex within-subject dependence, varying incomplete follow-up, and high-dimensional predictors, plus applications to **two clinical datasets** (repeated infections and hospital readmissions) show strong predictive accuracy and discrimination, outperforming classical competitors on the larger dataset.
 
 **Keywords**
 <br>
