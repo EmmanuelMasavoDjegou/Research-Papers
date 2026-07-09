@@ -111,7 +111,7 @@
 ```
 Paper 1 (Semiparametric AGT + Effective Age)  ──►  theoretical foundation
                                                        │
-Paper 2 (RNN-AGT: Deep Learning extension)    ◄───────┘  relaxes parametric
+Paper 2 (RNN-AGT: Deep Learning extension)     ◄───────┘  relaxes parametric
                                                           assumptions via RNNs
 Paper 3 (Hierarchical Nonconvex Cox / IPD)    ──►  parallel high-dimensional
                                                     variable-selection track
