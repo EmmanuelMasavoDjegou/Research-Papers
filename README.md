@@ -1,13 +1,13 @@
 <div align="center">
 
 # 📚 Research Papers
-### Survival Analysis, Recurrent Events & High-Dimensional Meta-Analysis
+### Advanced Statistical & Machine Learning Methods for Time-to-Event Data
 
-![Papers](https://img.shields.io/badge/Papers-3-2c5364?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-0f3460?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Recurrent%20Events-0f3460?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Deep%20Learning-e94560?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Genomics-9d4edd?style=flat-square)
-![Institution](https://img.shields.io/badge/Missouri%20S%26T-Dept.%20of%20Mathematics%20%26%20Statistics-1c2541?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
 *A collection of research papers on modeling time-to-event and recurrent-event data — spanning semiparametric theory, deep learning, and high-dimensional meta-analysis.*
 
@@ -19,13 +19,65 @@
 
 | # | Paper | Methods |
 |---|-------|---------|
-| 1 | [Hierarchical Variable Selection for Nonconvex Penalized Cox Models in IPD Meta-Analysis](#-hierarchical-variable-selection-for-nonconvex-penalized-cox-models-in-individual-participant-data-meta-analysis) | SCAD/MCP · Stratified Cox · Genomics |
-| 2 | [RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Modeling](#-rnn-agt-a-recurrent-neural-network-framework-for-accelerated-gap-time-modeling-via-gehan-type-rank-loss) | Deep Learning · Recurrent Events · Gehan Loss |
-| 3 | [Efficient Estimation in Semiparametric Accelerated Gap-Time Models](#-efficient-estimation-in-semiparametric-accelerated-gap-time-models-for-recurrent-event-data) | Semiparametric Theory · Effective Age · Efficient Score |
+| 1 | [Efficient Estimation in Semiparametric Accelerated Gap-Time Models](#-paper-1--efficient-estimation-in-semiparametric-accelerated-gap-time-models-for-recurrent-event-data) | Semiparametric Theory · Effective Age · Efficient Score |
+| 2 | [RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models](#-paper-2--rnn-agt-a-recurrent-neural-network-framework-for-accelerated-gap-time-models) | Deep Learning · Recurrent Events · Gehan Loss |
+| 3 | [Hierarchical Variable Selection for Nonconvex Penalized Cox Models in IPD Meta-Analysis](#-paper-3--hierarchical-variable-selection-for-nonconvex-penalized-cox-models-in-ipd-meta-analysis) | SCAD/MCP · Stratified Cox · Genomics |
 
 ---
 
-## 🧬 Hierarchical Variable Selection for Nonconvex Penalized Cox Models in Individual-Participant-Data Meta-Analysis
+## ⏱️ Paper 1 — Efficient Estimation in Semiparametric Accelerated Gap-Time Models for Recurrent Event Data
+
+<img src="banner_semiparametric_agt.svg" alt="Semiparametric AGT Banner" width="100%">
+
+**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301) · [LinkedIn](https://www.linkedin.com/in/emmanuel-djegou-5652b2254/)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297))
+<br>¹ Department of Mathematics and Statistics, Missouri University of Science and Technology, United States
+<br>Corresponding author: `akima@mst.edu`
+
+### Abstract
+
+> The **accelerated failure time (AFT)** model relates covariates to log-transformed event times under right-censoring, and extends naturally to recurrent events through the **accelerated gap-time (AGT)** formulation — a meaningful alternative to the Cox model. In applications like reliability engineering and biomedical research, interventions between successive events can alter subsequent timing, motivating models that explicitly accommodate such effects.
+>
+> This paper considers a broad class of **semiparametric accelerated gap-time models** incorporating an **effective age process**, representing a wide range of intervention mechanisms within a unified framework. To handle the estimation challenges posed by an infinite-dimensional baseline hazard and non-monotone score functions, a **sample-based weighted efficient score** is constructed via parametric submodels. The resulting estimators are shown to be **consistent and asymptotically normal**, and are illustrated through simulation studies and an application to a biomedical dataset.
+
+**Keywords**
+<br>
+![](https://img.shields.io/badge/-Semiparametric%20Models-2c5364?style=flat-square)
+![](https://img.shields.io/badge/-Accelerated%20Gap--Time%20Model-2c5364?style=flat-square)
+![](https://img.shields.io/badge/-Efficient%20Estimation-2c5364?style=flat-square)
+![](https://img.shields.io/badge/-Survival%20Analysis-2c5364?style=flat-square)
+![](https://img.shields.io/badge/-Recurrent%20Events-2c5364?style=flat-square)
+![](https://img.shields.io/badge/-Incomplete%20Follow--up-2c5364?style=flat-square)
+
+---
+
+## 🔁 Paper 2 — RNN-AGT: A Recurrent Neural Network Framework for Accelerated Gap-Time Models
+
+<img src="banner_rnn_agt.svg" alt="RNN-AGT Banner" width="100%">
+
+**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301) · [LinkedIn](https://www.linkedin.com/in/emmanuel-djegou-5652b2254/)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242))
+<br>¹ Department of Mathematics and Statistics, Missouri University of Science and Technology, United States
+<br>Corresponding author: `emmanueldjegou5@gmail.com`
+
+### Abstract
+
+> Recurrent event data arise when the same type of outcome occurs repeatedly for a subject over time — repeated hospitalizations, successive equipment failures, recurring insurance claims. Standard models often rely on restrictive assumptions about how covariates influence event risk, and can falter when those assumptions break down or relationships are complex.
+>
+> This paper introduces **RNN-AGT**, a deep learning framework that predicts the time between successive recurrent events in a flexible, data-driven way. An **RNN architecture** learns how a subject's event history shapes future event timing — without parametric assumptions on the error distribution or linearity requirements on covariate effects. To handle subjects whose follow-up ends before all events are observed, training uses a **rank-based (Gehan-type) objective** that properly accounts for incomplete observations while staying computationally efficient.
+>
+> Extensive simulations — covering nonlinear covariate effects, complex within-subject dependence, varying incomplete follow-up, and high-dimensional predictors — plus applications to **two clinical datasets** (repeated infections and hospital readmissions) show strong predictive accuracy and discrimination, outperforming classical competitors on the larger dataset.
+
+**Keywords**
+<br>
+![](https://img.shields.io/badge/-Recurrent%20Event%20Data-e94560?style=flat-square)
+![](https://img.shields.io/badge/-Accelerated%20Gap--Time%20Model-e94560?style=flat-square)
+![](https://img.shields.io/badge/-Survival%20Analysis-e94560?style=flat-square)
+![](https://img.shields.io/badge/-Deep%20Learning-e94560?style=flat-square)
+![](https://img.shields.io/badge/-Gehan%20Loss-e94560?style=flat-square)
+![](https://img.shields.io/badge/-C--index-e94560?style=flat-square)
+
+---
+
+## 🧬 Paper 3 — Hierarchical Variable Selection for Nonconvex Penalized Cox Models in IPD Meta-Analysis
 
 <img src="banner_hierarchical_cox.svg" alt="Hierarchical Cox Model Banner" width="100%">
 
@@ -54,64 +106,12 @@
 
 ---
 
-## 🔁 RNN-AGT: A Recurrent Neural Network Framework for Accelerated Gap-Time Modeling via Gehan-Type Rank Loss
-
-<img src="banner_rnn_agt.svg" alt="RNN-AGT Banner" width="100%">
-
-**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301) · [LinkedIn](https://www.linkedin.com/in/emmanuel-djegou-5652b2254/)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242))
-<br>¹ Department of Mathematics and Statistics, Missouri University of Science and Technology, United States
-<br>Corresponding author: `emmanueldjegou5@gmail.com`
-
-### Abstract
-
-> Recurrent event data arise when the same type of outcome occurs repeatedly for a subject over time — repeated hospitalizations, successive equipment failures, recurring insurance claims. Standard models often rely on restrictive assumptions about how covariates influence event risk, and can falter when those assumptions break down or relationships are complex.
->
-> This paper introduces **RNN-AGT**, a deep learning framework that predicts the time between successive recurrent events in a flexible, data-driven way. An **RNN architecture** learns how a subject's event history shapes future event timing — without parametric assumptions on the error distribution or linearity requirements on covariate effects. To handle subjects whose follow-up ends before all events are observed, training uses a **rank-based (Gehan-type) objective** that properly accounts for incomplete observations while staying computationally efficient.
->
-> Extensive simulations — covering nonlinear covariate effects, complex within-subject dependence, varying incomplete follow-up, and high-dimensional predictors — plus applications to **two clinical datasets** (repeated infections and hospital readmissions) show strong predictive accuracy and discrimination, outperforming classical competitors on the larger dataset.
-
-**Keywords**
-<br>
-![](https://img.shields.io/badge/-Recurrent%20Event%20Data-e94560?style=flat-square)
-![](https://img.shields.io/badge/-Accelerated%20Gap--Time%20Model-e94560?style=flat-square)
-![](https://img.shields.io/badge/-Survival%20Analysis-e94560?style=flat-square)
-![](https://img.shields.io/badge/-Deep%20Learning-e94560?style=flat-square)
-![](https://img.shields.io/badge/-Gehan%20Loss-e94560?style=flat-square)
-![](https://img.shields.io/badge/-C--index-e94560?style=flat-square)
-
----
-
-## ⏱️ Efficient Estimation in Semiparametric Accelerated Gap-Time Models for Recurrent Event Data
-
-<img src="banner_semiparametric_agt.svg" alt="Semiparametric AGT Banner" width="100%">
-
-**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301) · [LinkedIn](https://www.linkedin.com/in/emmanuel-djegou-5652b2254/)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297))
-<br>¹ Department of Mathematics and Statistics, Missouri University of Science and Technology, United States
-<br>Corresponding author: `akima@mst.edu`
-
-### Abstract
-
-> The **accelerated failure time (AFT)** model relates covariates to log-transformed event times under right-censoring, and extends naturally to recurrent events through the **accelerated gap-time (AGT)** formulation — a meaningful alternative to the Cox model. In applications like reliability engineering and biomedical research, interventions between successive events can alter subsequent timing, motivating models that explicitly accommodate such effects.
->
-> This paper considers a broad class of **semiparametric accelerated gap-time models** incorporating an **effective age process**, representing a wide range of intervention mechanisms within a unified framework. To handle the estimation challenges posed by an infinite-dimensional baseline hazard and non-monotone score functions, a **sample-based weighted efficient score** is constructed via parametric submodels. The resulting estimators are shown to be **consistent and asymptotically normal**, and are illustrated through simulation studies and an application to a biomedical dataset.
-
-**Keywords**
-<br>
-![](https://img.shields.io/badge/-Semiparametric%20Models-2c5364?style=flat-square)
-![](https://img.shields.io/badge/-Accelerated%20Gap--Time%20Model-2c5364?style=flat-square)
-![](https://img.shields.io/badge/-Efficient%20Estimation-2c5364?style=flat-square)
-![](https://img.shields.io/badge/-Survival%20Analysis-2c5364?style=flat-square)
-![](https://img.shields.io/badge/-Recurrent%20Events-2c5364?style=flat-square)
-![](https://img.shields.io/badge/-Incomplete%20Follow--up-2c5364?style=flat-square)
-
----
-
 ## 🔗 How the Papers Connect
 
 ```
 Paper 1 (Semiparametric AGT + Effective Age)  ──►  theoretical foundation
                                                        │
-Paper 2 (RNN-AGT: Deep Learning extension)     ◄───────┘  relaxes parametric
+Paper 2 (RNN-AGT: Deep Learning extension)    ◄───────┘  relaxes parametric
                                                           assumptions via RNNs
 Paper 3 (Hierarchical Nonconvex Cox / IPD)    ──►  parallel high-dimensional
                                                     variable-selection track
