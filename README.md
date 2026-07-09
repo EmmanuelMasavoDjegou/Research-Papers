@@ -29,7 +29,7 @@
 
 <img src="banner_semiparametric_agt.svg" alt="Semiparametric AGT Banner" width="100%">
 
-**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301) · [LinkedIn](https://www.linkedin.com/in/emmanuel-djegou-5652b2254/)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297))
+**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297))
 <br>¹ Department of Mathematics and Statistics, Missouri University of Science and Technology, United States
 <br>Corresponding author: `akima@mst.edu`
 
@@ -54,7 +54,7 @@
 
 <img src="banner_rnn_agt.svg" alt="RNN-AGT Banner" width="100%">
 
-**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301) · [LinkedIn](https://www.linkedin.com/in/emmanuel-djegou-5652b2254/)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242))
+**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301)) · **Akim Adekpedjou¹** ([ORCID](https://orcid.org/0000-0001-9584-4297)) · **Xuerong Meggie Wen¹** ([ORCID](https://orcid.org/0009-0007-8739-5242))
 <br>¹ Department of Mathematics and Statistics, Missouri University of Science and Technology, United States
 <br>Corresponding author: `emmanueldjegou5@gmail.com`
 
@@ -81,7 +81,7 @@
 
 <img src="banner_hierarchical_cox.svg" alt="Hierarchical Cox Model Banner" width="100%">
 
-**Emmanuel Djegou¹\*** · **Bertin Dehigbe²** · **Jarrad Botchway¹**
+**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301)) · **Bertin Dehigbe²** · **Jarrad Botchway¹**
 <br>¹ Missouri University of Science and Technology, United States &nbsp;·&nbsp; ² University of Abomey-Calavi, Benin
 <br>\* Corresponding author: `emmanueldjegou5@gmail.com`
 
