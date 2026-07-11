@@ -19,7 +19,7 @@
 
 | # | Paper | Methods |
 |---|-------|---------|
-| 1 | [Efficient Estimation in Semiparametric Accelerated Gap-Time Models](#-paper-1--efficient-estimation-in-semiparametric-accelerated-gap-time-models-for-recurrent-event-data) | Semiparametric Theory · Effective Age · Efficient Score |
+| 1 | [Efficient Estimation in Semiparametric Accelerated Gap-Time Models for Recurrent Event Data](#-paper-1--efficient-estimation-in-semiparametric-accelerated-gap-time-models-for-recurrent-event-data) | Semiparametric Theory · Effective Age · Efficient Score |
 | 2 | [RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss](#-paper-2--rnn-agt-a-recurrent-neural-network-framework-for-accelerated-gap-time-models) | Deep Learning · Recurrent Events · Gehan Loss |
 | 3 | [Hierarchical Variable Selection for Nonconvex Penalized Cox Models in IPD Meta-Analysis](#-paper-3--hierarchical-variable-selection-for-nonconvex-penalized-cox-models-in-ipd-meta-analysis) | SCAD/MCP · Stratified Cox · Genomics |
 
