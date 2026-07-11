@@ -9,7 +9,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Genomics-9d4edd?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
-*A collection of research papers on modeling time-to-event and recurrent-event data — spanning semiparametric theory, deep learning, and high-dimensional meta-analysis.*
+*A collection of research papers on modeling time-to-event and recurrent-event data — spanning semiparametric theory, deep learning, survival analysis and high-dimensional meta-analysis.*
 
 </div>
 
