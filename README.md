@@ -1,7 +1,7 @@
 <div align="center">
 
 # 📚 Research Papers
-### Modern Statistical Methods for Survival Data Modeling in the Era of AI
+### Statistical Methods for Survival Data Modeling in the Era of AI
 
 ![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Recurrent%20Events-0f3460?style=flat-square)
