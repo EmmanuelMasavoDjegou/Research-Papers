@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Research Papers
+# 📚 Seminal Research Papers
 ### Statistical Methods for Survival Data Modeling in the Era of AI
 
 ![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
