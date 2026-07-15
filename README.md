@@ -96,7 +96,7 @@
 
 ---
 
-## 🔗 How the Papers Connect
+## 🔗 How the Foundational Papers Connect
 
 ```
 Paper 1 (Semiparametric AGT + Effective Age)  ──►  theoretical foundation
