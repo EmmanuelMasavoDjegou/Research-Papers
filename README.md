@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Seminal Research Papers
+# 📚 Research Papers
 ### Statistical Methods for Survival Data Modeling in the Era of AI
 
 ![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
@@ -12,16 +12,6 @@
 *A collection of research papers on modeling survival data — spanning semiparametric theory, deep learning, survival analysis and high-dimensional meta-analysis.*
 
 </div>
-
----
-
-## 📋 Table of Contents
-
-| # | Paper | Methods |
-|---|-------|---------|
-| 1 | [Efficient Estimation in Semiparametric Accelerated Gap-Time Models for Recurrent Event Data](#-paper-1--efficient-estimation-in-semiparametric-accelerated-gap-time-models-for-recurrent-event-data) | Semiparametric Theory · Effective Age · Efficient Score |
-| 2 | [RNN-AGT: Recurrent Neural Networks for Accelerated Gap-Time Models via Gehan-Type Rank Loss](#-paper-2--rnn-agt-a-recurrent-neural-network-framework-for-accelerated-gap-time-models) | Deep Learning · Recurrent Events · Gehan Loss |
-| 3 | [Hierarchical Variable Selection for Nonconvex Penalized Cox Models in IPD Meta-Analysis](#-paper-3--hierarchical-variable-selection-for-nonconvex-penalized-cox-models-in-ipd-meta-analysis) | SCAD/MCP · Stratified Cox · Genomics |
 
 ---
 
