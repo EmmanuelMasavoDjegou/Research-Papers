@@ -81,7 +81,7 @@
 
 <img src="banner_hierarchical_cox.svg" alt="Hierarchical Cox Model Banner" width="100%">
 
-**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301)) · **Bertin Dehigbe²** · **Jarrad Botchway¹**
+**Emmanuel Djegou¹** ([ORCID](https://orcid.org/0009-0007-5527-2301)) · **Bertin Dehigbe²** · **Jarrad Botchway¹** · **Emmanuel Boamah¹**
 <br>¹ Missouri University of Science and Technology, United States &nbsp;·&nbsp; ² University of Abomey-Calavi, Benin
 <br>\* Corresponding author: `emmanueldjegou5@gmail.com`
 
