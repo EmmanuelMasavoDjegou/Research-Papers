@@ -3,10 +3,10 @@
 # 📚 Research Papers
 ### Statistics for Survival Data Modeling in the Era of AI
 
-![Focus](https://img.shields.io/badge/Focus-Survival%20Analysis-2c5364?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Recurrent%20Events-0f3460?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Deep%20Learning-e94560?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Genomics-9d4edd?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Semiparametric%20Efficiency%20Theory-2c5364?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Deep%20Survival%20Models-0f3460?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-High--Dimensional%20Variable%20Selection-e94560?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Statistical%20Validation-9d4edd?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
 *A unified research framework connecting semiparametric efficiency theory, deep survival models, high-dimensional variable selection and statistical validation for reliable survival data modeling.*
