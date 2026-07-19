@@ -9,7 +9,9 @@
 ![Focus](https://img.shields.io/badge/Focus-Statistical%20Validation-9d4edd?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
-*A unified research framework connecting semiparametric efficiency theory, deep survival models, high-dimensional variable selection and statistical validation for reliable survival data modeling.*
+*A curated archive of abstracts, author contributions, and methodological developments that documents the evolution of my research program while fostering transparency, scientific integrity, and meaningful research collaborations.
+
+*
 
 </div>
 
