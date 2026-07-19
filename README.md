@@ -9,9 +9,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Statistical%20Validation-9d4edd?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen?style=flat-square)
 
-*A curated archive of abstracts, author contributions, and methodological developments that documents the evolution of my research program while fostering transparency, scientific integrity, and meaningful research collaborations.
-
-*
+*A curated archive of abstracts, author contributions, and methodological developments that documents the evolution of my research program while fostering transparency, scientific integrity, and meaningful research collaborations.*
 
 </div>
 
